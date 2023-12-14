@@ -1,0 +1,25 @@
+.line_footer{
+    width: 15%;
+    border: 1px solid #848484;
+}
+.contact{
+    color: #848484;
+
+}
+.contact_footer{
+    width:10%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_icon {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact_icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  
+  

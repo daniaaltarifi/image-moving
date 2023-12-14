@@ -1,0 +1,13 @@
+.parallaxParent {
+  height: 100vh;
+  overflow: hidden;
+}
+.parallaxParent > * {
+  height: 200%;
+  position: relative;
+  top: -100%;
+}
+.imag{
+  background-image: url('../images/image_news_06.jpg');
+}
+
