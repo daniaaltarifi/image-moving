@@ -9,6 +9,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import Test from "./Component/Test";
 import './Style/Test.css'
+import Cards from "./Component/Cards";
 function App() {
  
   return (
@@ -23,9 +24,10 @@ function App() {
         </BrowserRouter> */}
         <Test/>
         <Test/>
+        {/* <Test/>
         <Test/>
-        <Test/>
-        <Test/>
+        <Test/> */}
+        <Cards/>
       {/* <Home/> */}
     </div>
   );
